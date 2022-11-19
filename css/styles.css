@@ -1,11 +1,63 @@
-.header {
-    color : red ;
+header {
+    /* color : red ; */
     background-color: blue;
-    height: 80px;
+    height: 40px;
+}
+#logoAP {
+    height: 100%;
 }
 
-.bloques {
+.banner {
     color : green ;
-    background-color: black;
-    height: 150px;
+    background-color: rgb(170, 217, 142);
+    height: 30%;
+    width: 100%;
+}
+
+
+#fotobanner{
+    width: 100%;
+    height: 400px;
+
+}
+
+
+#fotodeperfil{
+    position: relative;
+    width:10%;
+    border-radius: 100%;
+    box-shadow: 3px 3px 3px grey;
+    left:3%;
+    top: -100px;
+}
+
+.acercade {
+    position: relative;
+    color : rgb(5, 11, 5) ;
+    background-color: rgb(170, 217, 142);
+    height: 100%;
+    
+}
+.acercade.descripcion {
+    float: right;
+}
+
+.experiencia {
+    color : rgb(4, 19, 4) ;
+    background-color: rgb(210, 206, 246);
+    height: 500px;
+}
+
+.educacion {
+    background-color: rgb(65, 223, 173);
+}
+
+.hys{
+    background-color: rgb(247, 176, 126);
+}
+.proyectos{
+    background-color: rgb(235, 154, 177);
+}
+footer{
+    background-color: seagreen;
 }
